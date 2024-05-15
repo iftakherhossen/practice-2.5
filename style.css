@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.h-600 {
+    min-height: 600px;
+}
+.text-orange {
+    color: #FB9D5C;
+}
+.bg-img {
+    background-image: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 750px;
+}
+.navbar {
+    width: 85%;
+    min-height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 1rem 2rem;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.navbar .links {
+    display: flex;
+    gap: 30px;
+}
+.navbar .links a {
+    font-size: 18.5px;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.hero-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hero-text-wrapper {
+    flex-direction: column;
+}
+.hero-text-wrapper,
+.hero-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.hero-wrapper .hero-text-wrapper p {
+    font-size: 20.5px;
+    text-align: center;
+}
+.hero-wrapper .hero-text-wrapper h1 {
+    color: white;
+    font-size: 44px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.btn {
+    width: 108px;
+    height: 38px;
+    background-color: #FB9D5C;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.logo-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #F9F9F9;
+    margin-bottom: 1rem;
+}
+.logo-wrapper .logo-item {
+    display: flex;
+    justify-content: center;
+}
+.logo-wrapper .logo-item img {
+    height: 110px;
+}
+.service-wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+.service-wrapper .heading {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-wrapper .heading h2 {
+    font-size: 38px;
+}
+.service-wrapper .heading img {
+    margin: 0.5rem 0;
+}
+.service-wrapper .heading p {
+    font-size: 18px;
+    text-align: center;
+}
+.service-wrapper .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.service-wrapper .card-wrapper .card {
+    max-width: 356px;
+    height: 260px;
+    border: 1px solid #A5A1A1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+}
+.service-wrapper .card-wrapper .card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.service-wrapper .card-wrapper .card p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.contact-wrapper {
+    width: 85%;
+    margin: 5rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+.contact-wrapper .left-side {
+    display: flex;
+    justify-content: center;
+}
+.contact-wrapper .right-side {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 0;
+    flex-direction: column;
+}
+.contact-wrapper .right-side h2 {
+    margin: 1rem 0;
+    font-size: 38px;
+}
+.contact-wrapper .right-side p {
+    margin: 1rem 0;
+    font-size: 19px;
+}
+.contact-wrapper .right-side .contact {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.contact-wrapper .right-side .contact i {
+    font-size: 50px;
+}
+.contact-wrapper .right-side .contact h4 {
+    font-size: 38.5px;
+}
+.contact-wrapper .right-side h5 {
+    font-size: 30px;
+}
+footer {
+    background-color: #212529;
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #C0BABA;
+}
+footer .footer-wrapper .item {
+    padding: 0 12px;
+}
+footer .footer-wrapper .item .item-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+footer .footer-wrapper .item .item-heading2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+footer .footer-wrapper .item h6 {
+    font-size: 22px;
+}
+footer .footer-wrapper .item .item-heading img {
+    width: 50px;
+    height: 50px;
+}
+footer .footer-wrapper .item .item-heading2 img {
+    width: 120px;
+}
+footer .footer-wrapper .item p,
+footer .footer-wrapper .item ul {
+    font-size: 18px;
+    margin: 10px 0;
+}
+footer .footer-wrapper .item li {
+    margin-bottom: 5px;
+}
+footer .footer-wrapper .item input {
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 14px;
+    width: 75%;
+}
+footer .footer-wrapper .item input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 480px) {
+    .bg-img {
+        overflow-x: hidden;
+        min-height: 1000px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .links {
+        flex-direction: column;
+        margin-top: 1.2rem;
+    }
+    .navbar .links a  {
+        padding: 0 0.5rem;
+    }
+    .hero-wrapper {
+        flex-direction: column;
+    }
+    .hero-text-wrapper {
+        width: 100%;
+    }
+    .hero-img-wrapper {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .hero-img-wrapper img {
+        height: 550px;
+    }
+    .logo-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .service-wrapper .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper .left-side {
+        height: 400px;
+    }
+    .contact-wrapper .right-side {
+        width: 100%;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+    footer .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 699px) {
+    .bg-img {
+        overflow-x: hidden;
+        min-height: 1000px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .links {
+        flex-direction: column;
+        margin-top: 1.2rem;
+    }
+    .navbar .links a  {
+        padding: 0 0.5rem;
+    }
+    .hero-wrapper {
+        flex-direction: column;
+    }
+    .hero-text-wrapper {
+        width: 100%;
+    }
+    .hero-img-wrapper {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .hero-img-wrapper img {
+        height: 550px;
+    }
+    .logo-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+    .service-wrapper .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper .left-side {
+        height: 400px;
+    }
+    .contact-wrapper .right-side {
+        width: 100%;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+    footer .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    .bg-img {
+        overflow-x: hidden;
+        min-height: 1000px;
+    }
+    .hero-wrapper {
+        flex-direction: column;
+    }
+    .hero-text-wrapper {
+        width: 100%;
+    }
+    .hero-img-wrapper {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .hero-img-wrapper img {
+        height: 550px;
+    }
+    .logo-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+    }
+    .service-wrapper .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    .contact-wrapper .left-side {
+        height: 400px;
+    }
+    .contact-wrapper .right-side {
+        width: 100%;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+    footer .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+}
